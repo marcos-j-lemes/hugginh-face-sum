@@ -9,25 +9,17 @@
 body{
 font-family: Arial;
 background:#f5f5f5;
-margin:0;
-padding:40px;
 text-align:center;
-}
-
-.container{
-max-width:900px;
-margin:auto;
-background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 5px 20px rgba(0,0,0,0.1);
+padding:40px;
 }
 
 iframe{
 width:100%;
+max-width:900px;
 height:500px;
 border:none;
-border-radius:8px;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
 }
 
 </style>
@@ -35,20 +27,13 @@ border-radius:8px;
 
 <body>
 
-<div class="container">
+<h1>Modelo de Machine Learning</h1>
 
-<h1>Modelo de Machine Learning: Soma</h1>
-
-<p>
-Este modelo foi treinado com PyTorch para aprender a operação de soma.
-Digite dois números abaixo para testar.
-</p>
+<p>Teste o modelo de soma treinado com PyTorch.</p>
 
 <iframe
-src="https://huggingface.co/spaces/marcos-j-leemes/sum_model?embed=true">
+src="https://marcos-j-leemes-sum-model.hf.space">
 </iframe>
-
-</div>
 
 </body>
 </html>
